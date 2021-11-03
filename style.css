@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.offerings {
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-align: center;
+  background-image: linear-gradient(to right, red, green, yellow);
+}
+
+.f {
+  text-align: center;
+  width: 800px;
+  border: 5px solid red;
+  border-radius: 10px;
+  margin: 30px auto;
+  background-color: #add8e6;
+}
+
+.container {
+  border: 5px solid green;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 40px;
+  background-color: #7fffd4;
+  border-radius: 10px;
+}
+
+.box {
+  text-align: center;
+  background-color: #00ffff;
+  border: 2px solid green;
+  border-radius: 10px;
+  width: 450px;
+}
+
+.jee {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 25px 0;
+  background-image: linear-gradient(to right, #e02237, yellow, #e02237);
+  padding-bottom: 20px;
+}
+
+.jee span {
+  border-bottom: 2px solid red;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.topper-container {
+  background-image: radial-gradient(blue, lightgreen);
+  border: 2px solid green;
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-around;
+  height: 250px;
+  align-items: center;
+}
+
+.topper {
+  border: 2px solid red;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  background-color: #f0e40a;
+  border-radius: 10px;
+  padding: 0 25px 25px 25px;
+  color: #5e3302;
+}
+
+.grid {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) 110px;
+  grid-template-rows: 60px 90px 200px 40px;
+  row-gap: 20px;
+  color: white;
+  column-gap: 20px;
+  border: 2px solid black;
+}
+
+#box-1 {
+  background-color: red;
+  grid-column: 1 / span 4;
+  text-transform: uppercase;
+  text-align: center;
+}
+#box-2 {
+  background-color: lightgreen;
+  text-align: center;
+}
+#box-3 {
+  background-color: rgb(134, 134, 230);
+}
+#box-4 {
+  background-color: blue;
+}
+#box-5 {
+  background-color: black;
+  grid-row: 2/4;
+}
+#box-6 {
+  background-color: yellow;
+  grid-column: 1 / span 3;
+  grid-row: 3 / 4;
+}
+#box-7 {
+  background-color: lightsteelblue;
+  grid-column: 1 / span 4;
+  grid-row: 4 / 5;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
+#box-5 h2 {
+  border-bottom: 2px solid white;
+  padding: 0 0 5px 8px;
+}
